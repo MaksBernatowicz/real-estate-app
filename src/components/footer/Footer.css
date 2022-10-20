@@ -1,0 +1,26 @@
+.footer {
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #f8f8f8;
+}
+
+.footer .social {
+    text-align: center;
+}
+
+.footer .icon {
+    font-size: 2rem;
+    margin: 2rem 3rem;
+    color: #5651e5;
+}
+
+@media screen and (max-width: 940px) {
+    .footer .container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: .5rem;
+    }
+
+    .footer .icon {
+        margin: 1rem 2rem;
+    }
+}

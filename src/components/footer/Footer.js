@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './Footer.css'
+
 import { FaGithub } from 'react-icons/fa'
 import { SiCodewars, SiLinkedin } from 'react-icons/si'
 
