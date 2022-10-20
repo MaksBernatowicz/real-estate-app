@@ -18,7 +18,7 @@ function Navbar() {
                     <li><a href='#'>Contact</a></li>
                 </ul>
                 <div className='hamburger'>
-                    <HiOutlineMenuAlt4 />
+                    <HiOutlineMenuAlt4 className='icon' />
                 </div>
             </div>
         </div>
