@@ -18,7 +18,7 @@ const Featured = () => {
     return (
         <div className='featured'>
             <h1 className='featured-text'>Top Featured Listings</h1>
-            <p>Selected listings by City, State & Zip based on views.</p>
+            <p className='featured-text'>Selected listings by City, State & Zip based on views.</p>
 
             {/* --------------------\\\\\  FIRST SECTION  /////-------------------- */}
 
@@ -30,7 +30,7 @@ const Featured = () => {
                 <img src={Bathroom} alt='Bathroom 1' />
                 <div className='span-3 img-details'>
                     <div className='top'>
-                        <h2>adress details</h2>
+                        <h2>123 Acme St. Dallas, TX</h2>
                         <p>House For Sale</p>
                         <p className='price'>$2,499,000</p>
                     </div>
@@ -54,7 +54,7 @@ const Featured = () => {
                     </div>
                 </div>
                 <div className='span-2 right-img-details'>
-                    <p>****************************************Property description****************************************</p>
+                    <p>A beautiful modern day home in the city with a full-size pool. Spacious and luxurious home located in Texas. Including media room, workout facility, and built-in sauna.</p>
                     <button className='btn'>View Listing</button>
                 </div>
             </div>
@@ -62,20 +62,20 @@ const Featured = () => {
             {/* --------------------\\\\\  SECOND SECTION  /////-------------------- */}
 
             <div className='container'>
-                <img src={Bed3} alt='Bedroom 3' />
-                <img src={Bed4} alt='Bedroom 4' />
+                <img className='order-2' src={Bed3} alt='Bedroom 3' />
+                <img className='order-3' src={Bed4} alt='Bedroom 4' />
 
-                <img className='span-3 image-grid-row-2' src={House2} alt='House 2' />
+                <img className='span-3 image-grid-row-2 order-1' src={House2} alt='House 2' />
 
-                <img src={Bathroom2} alt='Bathroom 2' />
-                <img src={Livingroom} alt='Livingroom' />
-                <div className='span-2 right-img-details'>
-                    <p>****************************************Property description****************************************</p>
+                <img className='order-4' src={Bathroom2} alt='Bathroom 2' />
+                <img className='order-5' src={Livingroom} alt='Livingroom' />
+                <div className='span-2 right-img-details order-7'>
+                    <p>A beautiful modern day home in the city with a full-size pool. Spacious and luxurious home located in Texas. Including media room, workout facility, and built-in sauna.</p>
                     <button className='btn'>View Listing</button>
                 </div>
-                <div className='span-3 img-details'>
+                <div className='span-3 img-details order-6'>
                     <div className='top'>
-                        <h2>adress details</h2>
+                        <h2>123 Acme St. Dallas, TX</h2>
                         <p>House For Sale</p>
                         <p className='price'>$2,499,000</p>
                     </div>
