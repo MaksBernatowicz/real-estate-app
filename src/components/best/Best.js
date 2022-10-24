@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Apt1 from '../../assets/apt1.jpeg'
-import Apt2 from '../../assets/apt2.jpeg'
-import Apt3 from '../../assets/apt3.jpeg'
+import Apt1 from '../../assets/best1.jpg'
+import Apt2 from '../../assets/best2.jpg'
+import Apt3 from '../../assets/best3.jpg'
 
 import './Best.css'
 

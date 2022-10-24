@@ -1,18 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
 :root {
   --color-white: #fafafa;
-  --color-grey: rgb(198, 192, 171);
   --color-grey-light: rgb(231, 228, 217);
-  --color-grey-dark: #666666;
+  --color-grey: rgb(198, 192, 171);
+  --color-grey-dark: rgb(137, 132, 116);
   --color-black: #202020;
-  --gradient: linear-gradient(45deg, #5651e5 0%, #d270ff 100%);
-}
+  --gradient: linear-gradient(45deg, rgb(137, 132, 116) 0%, rgb(198, 192, 171) 100%);
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+  --transition: all 400ms ease;
+}
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: var(--color-grey-light);
+  color: var(--color-black);
+  margin: 0;
+  font-family: 'Raleway', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ul {
@@ -21,16 +42,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #333;
-}
-
-body {
-  margin: 0;
-  font-family: 'Raleway', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-black);
 }
 
 .container {

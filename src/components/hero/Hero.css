@@ -80,7 +80,7 @@
 
  .search button {
      background-image: var(--gradient);
-     border: 1px solid #5651e5;
+     border: 1px solid rgb(137, 132, 116);
      color: var(--color-grey-light);
      padding: 10px;
      border-radius: 8px;

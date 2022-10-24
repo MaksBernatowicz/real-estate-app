@@ -2,13 +2,13 @@ import React from 'react'
 
 import './Featured.css'
 
-import House1 from '../../assets/house1.jpg'
-import Bed1 from '../../assets/bed1.jpg'
-import Bed2 from '../../assets/bed2.jpg'
-import Kitchen from '../../assets/kitchen.jpg'
+import House1 from '../../assets/house 1/house1.jpg'
+import Bed1 from '../../assets/house 1/bed1.jpg'
+import Livingroom1 from '../../assets/house 1/livingroom1.jpg'
+import Kitchen1 from '../../assets/house 1/kitchen1.jpg'
 import Bathroom from '../../assets/bath1.jpg'
 
-import House2 from '../../assets/house2.jpg'
+import House2 from '../../assets/house 2/house2.jpg'
 import Bed3 from '../../assets/bed3.jpg'
 import Bed4 from '../../assets/bed4.jpg'
 import Livingroom from '../../assets/living-room.jpg'
@@ -25,8 +25,8 @@ const Featured = () => {
             <div className='container'>
                 <img className='span-3 image-grid-row-2' src={House1} alt='House 1' />
                 <img src={Bed1} alt='Bedroom 1' />
-                <img src={Bed2} alt='Bedroom 2' />
-                <img src={Kitchen} alt='Kitchen' />
+                <img src={Livingroom1} alt='Livingroom 1' />
+                <img src={Kitchen1} alt='Kitchen' />
                 <img src={Bathroom} alt='Bathroom 1' />
                 <div className='span-3 img-details'>
                     <div className='top'>
