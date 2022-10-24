@@ -12,7 +12,7 @@ function Navbar() {
     return (
         <div className='navbar'>
             <div className='container'>
-                <h1><span><BsFillHouseFill />Real</span>Estate</h1>
+                <h1><span><BsFillHouseFill />My</span>Estate</h1>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li><a href='#'>Home</a></li>
                     <li><a href='#'>Search</a></li>

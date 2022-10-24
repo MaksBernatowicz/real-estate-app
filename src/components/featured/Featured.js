@@ -30,7 +30,7 @@ const Featured = () => {
                 <img src={Bath1} alt='Bathroom 1' />
                 <div className='span-3 img-details'>
                     <div className='top'>
-                        <h2>123 Acme St. Dallas, TX</h2>
+                        <h2>2350 River Road, Colorado Springs, CO</h2>
                         <p>House For Sale</p>
                         <p className='price'>$2,499,000</p>
                     </div>
@@ -54,7 +54,7 @@ const Featured = () => {
                     </div>
                 </div>
                 <div className='span-2 right-img-details'>
-                    <p>A beautiful modern day home in the city with a full-size pool. Spacious and luxurious home located in Texas. Including media room, workout facility, and built-in sauna.</p>
+                    <p>A beautiful family home with a full-size pool. Spacious and luxurious home is located in Colorado. Including media room, workout facility, and built-in sauna.</p>
                     <button className='btn'>View Listing</button>
                 </div>
             </div>
@@ -70,30 +70,30 @@ const Featured = () => {
                 <img className='order-4' src={Bath2} alt='Bathroom 2' />
                 <img className='order-5' src={Kitchen2} alt='Livingroom' />
                 <div className='span-2 right-img-details order-7'>
-                    <p>A beautiful modern day home in the city with a full-size pool. Spacious and luxurious home located in Texas. Including media room, workout facility, and built-in sauna.</p>
+                    <p>Modern day home in big city with garage. Spacious and luxurious home located in Texas. Including media room, workout facility, and built-in sauna.</p>
                     <button className='btn'>View Listing</button>
                 </div>
                 <div className='span-3 img-details order-6'>
                     <div className='top'>
-                        <h2>123 Acme St. Dallas, TX</h2>
+                        <h2>1970 Wines Lane, Houston, TX</h2>
                         <p>House For Sale</p>
-                        <p className='price'>$2,499,000</p>
+                        <p className='price'>$2,890,000</p>
                     </div>
                     <div className='info-grid'>
                         <div>
                             <div className='info'>
-                                <p className='bold'>Bedrooms:</p><p>5</p>
+                                <p className='bold'>Bedrooms:</p><p>6</p>
                             </div>
                             <div className='info'>
-                                <p className='bold'>Bathrooms:</p><p>7</p>
+                                <p className='bold'>Bathrooms:</p><p>4</p>
                             </div>
                         </div>
                         <div>
                             <div className='info'>
-                                <p className='bold'>Square Feet:</p><p>8,650</p>
+                                <p className='bold'>Square Feet:</p><p>9,124</p>
                             </div>
                             <div className='info'>
-                                <p className='bold'>Est Payment</p><p>$14,600/mo</p>
+                                <p className='bold'>Est Payment</p><p>$16,500/mo</p>
                             </div>
                         </div>
                     </div>

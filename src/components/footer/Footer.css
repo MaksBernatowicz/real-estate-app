@@ -1,7 +1,6 @@
 .footer {
     width: 100%;
     padding: 2rem 0;
-    /* background-color: var(--color-grey); */
     background-image: linear-gradient(0deg, rgb(198, 192, 171) 0%, rgb(231, 228, 217) 100%);
 }
 
@@ -13,6 +12,11 @@
     font-size: 2rem;
     margin: 2rem 3rem;
     color: var(--color-grey-dark);
+    transition: var(--transition);
+}
+
+.footer .icon:hover {
+    color: var(--color-black);
 }
 
 @media screen and (max-width: 940px) {
