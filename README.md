@@ -1,6 +1,6 @@
-# Hi, my name is Maks and this is my real estate app.
+# Hi, my name is Maks and this is my real estate website example.
 
-<img src="src/assets/screenshot.jpg">
+https://user-images.githubusercontent.com/96842769/199974246-65567cbe-cab5-4e55-b578-8bc257ff57c3.mp4
 
 It is made with CRA
 
